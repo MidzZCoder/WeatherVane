@@ -2,7 +2,7 @@ Project Name: Weather Vane
 This micro-site shows the user the weather forecast for the next five days based on the location they have entered.
 API Used: Openweather API  
 
-URL: 
+URL: https://midzzcoder.github.io/WeatherVane/index.html
 
 When launched the Weather Vane micro-site will show the user: 
 
