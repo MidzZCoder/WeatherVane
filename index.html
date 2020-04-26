@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Vane</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+  <!-- Background Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+  <script src="https://www.vantajs.com/dist/vanta.clouds2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="moment.min.js"></script>
+  </head>
+  <body>
+    <body id="netBackground" class="text-light" style="background-color: #131722;"></body>
+    <div id="outer-container">
+      <div id="inner-container">
+      <header>
+        <h1>Weather Vane</h1>
+      </header>
+      <section>
+        <nav>
+          <div id="form">
+            <label>Type City Name</label>
+            <button id="current-location">Current Location</button>
+            <input id="input-search" type="text" name="query" />
+            <input id="input-submit" type="submit" value="&#128269;" />
+          </div>
+          <div id="weather-history">
+            <ul id="weather-history-results"></ul>
+          </div>
+        </nav>
+        <div id="weather-info-block">
+          <div id="weather-current">
+            <div id="weather-detailed"></div>
+          </div>
+          <div id="weather-forecast">
+            <h3>Your 5-Day Forecast:</h3>
+            <ol id="forecast-info"></ol>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <script src="script.js"></script>
+    
+  </body>
+</html>
